@@ -26,7 +26,7 @@ Maintained by @Prince_3011 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "Command", url="https://t.me/prince_vcmusic01_bot_channel",
+                        "Command", url="https://t.me/prince_vcmusic_bot_channel",
                     )
                 ],
                 [
@@ -34,7 +34,7 @@ Maintained by @Prince_3011 ❤
                         "💬 Group", url="https://t.me/prince_music_chats"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/prince_vcmusic01_bot_channel"
+                        "🔊 Channel", url="https://t.me/prince_vcmusic_bot_channel"
                     ),
                     InlineKeyboardButton(
                         "😍 Credit", url="https://t.me/prince_3011"
