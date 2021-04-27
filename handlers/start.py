@@ -11,11 +11,14 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @DarkCatSangram ❤
-\nTo add in your group contact us at @MaharashtraTeam.
-\nHit /help list of available commands.
+        f"""⚜️<b>Hi {message.from_user.first_name}!⚜️
+
+⚜️ I am PRINCE_MUSIC_BOT VC Music Player, an open-source bot that lets you play music in your Telegram groups.
+Maintained by @Prince_3011 ❤
+
+⚜️ For source code Join our support group @PRINCE_MUSIC_CHATS.
+
+⚜️ Use the buttons below to know more about me.
  </b>""",
       
        
@@ -23,23 +26,23 @@ Maintained by @DarkCatSangram ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/maharashtrafriendcircle",
+                        "Command", url="https://t.me/prince_vcmusic01_bot_channel",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/hscscienceMaharashtraboard"
+                        "💬 Group", url="https://t.me/prince_music_chats"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/MaharashtraTeam"
+                        "🔊 Channel", url="https://t.me/prince_vcmusic01_bot_channel"
                     ),
                     InlineKeyboardButton(
-                        "😍 Credit", url="https://t.me/DarkCatSangram"
+                        "😍 Credit", url="https://t.me/prince_3011"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/YouTubeMusicPlayerRoBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/prince_vcmusic01_bot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,7 +61,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/MaharashtraTeam"
+                        "🔊 Channel", url="https://t.me/prince_vcmusic01_bot_channel"
                     )
                 ],    
                 [    
@@ -81,7 +84,8 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\n/play <song name> - play song you requested
+⚜️All Users Commands⚜️
+/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
 /splay <song name> - play song you requested via jio saavn
 /playlist - Show now playing list
@@ -91,8 +95,8 @@ async def help(client: Client, message: Message):
 /deezer <song name> - download songs you want quickly via deezer
 /saavn <song name> - download songs you want quickly via saavn
 /video <song name> - download videos you want quickly
-\n*Admins only*
-/player - open music player settings panel
+⚜️Admins only⚜️
+/player - open Music player settings panel
 /pause - pause song play
 /resume - resume song play
 /skip - play next song
@@ -104,7 +108,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/MaharashtraTeam"
+                        "🔊 Channel", url="https://t.me/prince_vcmusic01_bot_channel"
                     )
                 ]
             ]
