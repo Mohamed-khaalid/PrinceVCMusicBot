@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("AAMCBQADGQEAAQmVH2CI1w8mR70EpKlCE_TNo6B_fP4pAAIBAAMWXJ46zKJYuG-SC3urf_ZsdAADAQAHbQADHAMAAh8E")
+    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""⚜️<b>Hi {message.from_user.first_name}!⚜️
 
