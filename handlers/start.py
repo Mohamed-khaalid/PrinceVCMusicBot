@@ -26,7 +26,7 @@ Maintained by @Prince_3011 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "Command", url="https://t.me/prince_vcmusic_bot_channel",
+                        "Command", url="https://t.me/PRINCE_VCMUSIC_BOT_CHANNEL/4",
                     )
                 ],
                 [
@@ -61,7 +61,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/prince_vcmusic01_bot_channel"
+                        "🔊 Channel", url="https://t.me/prince_vcmusic_bot_channel"
                     )
                 ],    
                 [    
@@ -108,7 +108,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/prince_vcmusic01_bot_channel"
+                        "🔊 Channel", url="https://t.me/prince_vcmusic_bot_channel"
                     )
                 ]
             ]
