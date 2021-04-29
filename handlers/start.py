@@ -42,7 +42,7 @@ Maintained by @Prince_3011 ❤
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/prince_vcmusic01_bot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/{BOT_USERNAME}?startgroup=true"
                     ) 
                 ]
             ]
