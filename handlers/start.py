@@ -48,7 +48,6 @@ Maintained by @Prince_3011 ❤
             ]
         )
     )
-
 @Client.on_message(
     filters.command("start")
     & filters.group
