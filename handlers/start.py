@@ -84,6 +84,7 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
+
 ⚜️All Users Commands⚜️
 /play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
@@ -95,6 +96,7 @@ async def help(client: Client, message: Message):
 /deezer <song name> - download songs you want quickly via deezer
 /saavn <song name> - download songs you want quickly via saavn
 /video <song name> - download videos you want quickly
+
 ⚜️Admins only⚜️
 /player - open Music player settings panel
 /pause - pause song play
