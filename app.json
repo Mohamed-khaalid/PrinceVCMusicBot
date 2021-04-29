@@ -14,9 +14,9 @@
             "description": "From @BotFather",
             "required": true
         },
-        "BOT_NAME": {
-            "description": "Your VCPlayBot Name.",
-            "required": false,
+        "BOT_USERNAME": {
+            "description": "Your Bot Username without @.",
+            "required": true,
             "value": ""
        },
         "API_ID": {
