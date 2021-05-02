@@ -109,7 +109,30 @@ async def admincache(client, message: Message):
     #await message.reply_text("❇️ Admin cache refreshed!")
 
 
-@Client.on_message(filters.command("pause"))
-await message.reply_text("❇️ Admin cache refreshed!")
+@Client.on_message(filters.command("help"))
+await message.reply_text("⚜️ WELCOME TO HELP SECTION ⚜️
+
+⚜️All Users Commands⚜️
+/play  - play song you requested
+/dplay  - play song you requested via deezer
+/splay  - play song you requested via jio saavn
+/playlist - Show now playing list
+/current - Show now playing
+/song  - download songs you want quickly
+/search  - search videos on youtube with details
+/deezer  - download songs you want quickly via deezer
+/saavn  - download songs you want quickly via saavn
+/video  - download videos you want quickly
+
+⚜️Admins only⚜️
+/player - open Music player settings panel
+/pause - pause song play
+/resume - resume song play
+/skip - play next song
+/end - stop music play
+/userbotjoin - invite assistant to your chat
+/admincache - Refresh admin list
+
+BOT MAINTAIN BY @PRINCE_3011")
 
 
