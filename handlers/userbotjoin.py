@@ -13,14 +13,14 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor group first</b>",
+            "<b>First add me as admin in your group</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "prince_vcmusic01_plugin"
+        user.first_name =  "prince_vcmusic_bot"
 
     try:
         await USER.join_chat(invitelink)
@@ -33,7 +33,7 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
+            f"<b>🛑 Flood Wait Error 🛑 \n User Bot couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
             "\n\nOr manually add your userbot your Group and try again</b>",
         )
         return
