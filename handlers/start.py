@@ -82,7 +82,7 @@ async def start(client: Client, message: Message):
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "Hi {message.from_user.first_name}!
+        "⚜️HELP SECTION⚜️
 
 ⚜️Users Commands⚜️
 /play <song name> - play song you requested
