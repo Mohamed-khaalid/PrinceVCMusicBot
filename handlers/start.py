@@ -43,7 +43,7 @@ Maintained by @Prince_3011 ❤
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/prince_3011"
+                        "➕ Add To Your Group ➕", url="https://t.me/{bot_username}?startgroup=true"
                     ) 
                 ]
             ]
