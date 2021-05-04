@@ -43,7 +43,7 @@ Maintained by @Prince_3011 ❤
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/{bot_username}?startgroup=true"
+                        "📒TUTORIAL VIDEO▶️", url="https://telegra.ph/TUTORIAL-VIDEO-05-04"
                     ) 
                 ]
             ]
